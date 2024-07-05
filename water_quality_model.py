@@ -5,7 +5,6 @@ from tensorflow.keras.layers import Dense
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.utils import to_categorical
-from google.colab import files
 
 # Simpan model ke file .h5
 filename = 'water_quality_model.h5'
